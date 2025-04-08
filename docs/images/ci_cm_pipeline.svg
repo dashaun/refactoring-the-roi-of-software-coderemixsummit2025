@@ -1,0 +1,20 @@
+
+<svg width="600" height="140" xmlns="http://www.w3.org/2000/svg">
+  <!-- CI/CD -->
+  <text x="10" y="20" font-size="16" font-family="sans-serif">CI/CD:</text>
+  <rect x="80" y="5" width="80" height="30" fill="#4CAF50"/>
+  <text x="95" y="25" font-size="12" fill="white">Build</text>
+  <rect x="170" y="5" width="80" height="30" fill="#4CAF50"/>
+  <text x="185" y="25" font-size="12" fill="white">Test</text>
+  <rect x="260" y="5" width="100" height="30" fill="#4CAF50"/>
+  <text x="280" y="25" font-size="12" fill="white">Deploy</text>
+
+  <!-- CI/CM -->
+  <text x="10" y="90" font-size="16" font-family="sans-serif">CI/CM:</text>
+  <rect x="80" y="75" width="100" height="30" fill="#2196F3"/>
+  <text x="85" y="95" font-size="12" fill="white">Detect Drift</text>
+  <rect x="190" y="75" width="120" height="30" fill="#2196F3"/>
+  <text x="195" y="95" font-size="12" fill="white">Rewrite Automatically</text>
+  <rect x="320" y="75" width="100" height="30" fill="#2196F3"/>
+  <text x="330" y="95" font-size="12" fill="white">Pull Request</text>
+</svg>

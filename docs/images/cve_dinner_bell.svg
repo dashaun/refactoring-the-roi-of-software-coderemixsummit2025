@@ -1,0 +1,37 @@
+
+<svg width="600" height="200" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="black"/>
+
+  <!-- Bell -->
+  <circle cx="300" cy="80" r="40" fill="#FFD700" stroke="white" stroke-width="2"/>
+  <rect x="290" y="120" width="20" height="30" fill="#FFD700"/>
+  <text x="275" y="85" font-size="14" font-family="sans-serif" fill="black">CVE</text>
+
+  <!-- Sound waves -->
+  <path d="M 260 80 Q 250 60 240 80 Q 250 100 260 80" fill="none" stroke="white" stroke-width="2">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" repeatCount="indefinite"/>
+  </path>
+  <path d="M 340 80 Q 350 60 360 80 Q 350 100 340 80" fill="none" stroke="white" stroke-width="2">
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.2s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- Bad actors -->
+  <circle cx="100" cy="160" r="20" fill="red"/>
+  <text x="90" y="165" font-size="12" font-family="sans-serif" fill="white">👤</text>
+  <text x="70" y="190" font-size="14" font-family="sans-serif" fill="white">Hacker</text>
+
+  <circle cx="500" cy="160" r="20" fill="red"/>
+  <text x="490" y="165" font-size="12" font-family="sans-serif" fill="white">👤</text>
+  <text x="470" y="190" font-size="14" font-family="sans-serif" fill="white">Bad Actor</text>
+
+  <!-- Arrows -->
+  <line x1="120" y1="140" x2="270" y2="100" stroke="white" stroke-width="2" marker-end="url(#arrow)"/>
+  <line x1="480" y1="140" x2="330" y2="100" stroke="white" stroke-width="2" marker-end="url(#arrow)"/>
+
+  <!-- Arrow marker -->
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="white"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,8 @@
+services:
+  roi:
+    image: nginx
+    ports:
+      - "8088:80"
+    volumes:
+      - ${PWD}/docs:/usr/share/nginx/html:ro
+    restart: "always"

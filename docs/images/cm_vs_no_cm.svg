@@ -1,0 +1,37 @@
+
+<svg width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="black"/>
+
+  <!-- Labels -->
+  <text x="150" y="30" font-size="20" font-family="sans-serif" fill="white">With Continuous Migration</text>
+  <text x="510" y="30" font-size="20" font-family="sans-serif" fill="white">Without Continuous Migration</text>
+
+  <!-- With CM: Wallet, speed and money icons -->
+  <rect x="100" y="80" width="150" height="100" rx="15" ry="15" fill="#4CAF50"/>
+  <text x="130" y="140" font-size="16" fill="white" font-family="sans-serif">💳 Efficient</text>
+  <text x="120" y="160" font-size="16" fill="white" font-family="sans-serif">⚡ Fast Software</text>
+
+  <text x="130" y="200" font-size="18" fill="white" font-family="sans-serif">💰</text>
+  <animateTransform attributeName="transform" type="translate" from="0 0" to="0 -10"
+    begin="0s" dur="0.8s" repeatCount="indefinite" additive="sum"/>
+
+  <!-- Without CM: Wallet, money flying out -->
+  <rect x="500" y="80" width="150" height="100" rx="15" ry="15" fill="#D32F2F"/>
+  <text x="530" y="140" font-size="16" fill="white" font-family="sans-serif">💳 Outdated</text>
+  <text x="510" y="160" font-size="16" fill="white" font-family="sans-serif">🐢 Slower, Costly</text>
+
+  <!-- Dollar bills flying out -->
+  <text x="550" y="200" font-size="18" fill="lime" font-family="sans-serif" opacity="0">
+    💸
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="0.5s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="30,-40"
+      dur="2s" begin="0.5s" repeatCount="indefinite" additive="sum"/>
+  </text>
+
+  <text x="570" y="200" font-size="18" fill="lime" font-family="sans-serif" opacity="0">
+    💸
+    <animate attributeName="opacity" values="0;1;0" dur="2s" begin="1s" repeatCount="indefinite"/>
+    <animateTransform attributeName="transform" type="translate" from="0,0" to="40,-30"
+      dur="2s" begin="1s" repeatCount="indefinite" additive="sum"/>
+  </text>
+</svg>
