@@ -1,7 +1,7 @@
 ### Refactoring the ROI of Software
 ##### Lessons from the Frontlines of OpenRewrite Adoption
 
----
+<!--
 
 ### Abstract:
 
@@ -11,8 +11,8 @@ Discover how OpenRewrite is transforming the ROI of software by enabling teams t
 
 The future of software development is clear: if we design with maintenance in mind, we create organizations that are more efficient, secure, and, ultimately, more enjoyable places to work. Join me as we explore this evolving story and envision a better path forward.
 
----
-
 ### Background:
 
 Most weeks, since summer 2022, I've been engaged with 5-15 different customers, for 1-2 hours each, every week. Small touches with teams, ranging from a few weeks with some teams, to over a year with others. I want to share some of the encouraging outcomes I've seen. I want to try to capture the joy that I see, when customers realize how powerful OpenRewrite is. I want to leave the audience knowing, that the software they build today, can deliver more value than ever with continuous migration and remediation. I will use Spring Boot migrations, the demos that I give ~20 times every week, combined with the best stories and accomplishments that I can bring. I realize it will be hard to do all of that in 25-minutes, but I have a ton of use-cases to pull from, I'll focus on the highlights.
+
+-->
