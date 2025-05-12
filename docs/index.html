@@ -125,6 +125,10 @@
 				hash: false,
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
+			Reveal.configure({ showNotes: false,
+				               pdfSeparateFragments: false,
+				               pdfMaxPagesPerSlide: 1 });
+
 		</script>
 		<script type="text/javascript">
 			const startDate = new Date("12/20/2021");
