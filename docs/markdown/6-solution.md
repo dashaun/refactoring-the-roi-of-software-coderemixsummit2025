@@ -70,3 +70,18 @@ Notes:
 Here’s the takeaway: you don’t have to choose between innovation and maintenance.
 You can deliver *new value* and *capture hidden value* at the same time.\
 That’s the OpenRewrite advantage.
+
+---
+
+When asked "How do you decide which repositories to start with?"
+
+```text
+"I chose all of them."
+      - Dov Katz
+```
+
+---
+
+## Maximize the amount of work NOT done.
+
+Automation. At scale.

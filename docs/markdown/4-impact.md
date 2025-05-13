@@ -1,3 +1,87 @@
+## Typical Journey with OpenRewrite
+
+---
+- Me: "Can I show you OpenRewrite?"
+- Them: "Wait, this thing just rewrote my code? Like... correctly?!"
+
+---
+
+- Me: "How is it going?  You need any help?"
+- Them: "I don't need help. I can do this. I’ll just write my own YAML. How hard can it be?"
+
+---
+
+- Me: "How is it going?  You need any help?"
+- Them: "No, no, I’m good. Totally rolling this out to prod tomorrow."
+
+Six weeks of silence. They’ve gone full rogue. Possibly living off Post-it notes.
+
+---
+
+<img src="images/i_made_this.png" alt="I made this" width="250"/>
+
+
+---
+
+- Them: "Hey, do you have a recipe that migrates from ancient Spring Boot to the latest with no breaking changes?"
+- Them: "Can it deploy to Kubernetes too?"
+- Them: "Do you have any recipes for Cobol?"
+
+---
+
+- Them: "Okay, I might've promised the team support for Spring Data Kafka, Redis, Elasticsearch, Angular, Kubernetes, and Terraform... yesterday."
+
+The eyes say "help," but the Slack message says "quick question."
+
+---
+
+- Them: "Why isn’t everyone in my org using this already?!"
+
+PowerPoint decks appear. Acronyms are weaponized. A “Center of Excellence” is born.
+
+---
+
+- Them: "If I convince Security and Architecture to approve this, I'll finally make a name for myself in this company!"
+
+They’ve renamed their internal Slack channel #rewrite-revolution.
+
+---
+
+- Them: "I tried to automate all our app upgrades… and now nothing builds."
+
+Jenkins is crying. The cat is judging. The pom.xml is unrecognizable with custom plugins named 'revolutionizr'.
+
+---
+
+- Them: "Can someone just tell me when there are new recipes? Or if mine are deprecated? Or if my choices in life were wrong?"
+
+Subscribes to the newsletter. Joins Discord. Watches for updates like a hawk watches the skies.
+
+---
+
+- Them: "Okay… maybe I can’t do this alone and run the platform, deliver regular releases, and meet quarterly goals."
+
+Realizes OpenRewrite is a team sport—and asks for a coach.
+
+---
+
+- Them: "Wait. If I get this working… I could save hundreds of hours. Maybe thousands… We could be happy again."
+
+The dream returns. So do the spreadsheets.
+
+---
+
+- Them: "So about this Continuous Remediation thing… can we set up a recurring call?"
+
+Full circle. Enlightenment achieved. They bring friends this time.
+
+---
+
+### Typical Journey with OpenRewrite
+#### 12-stages of grief
+
+---
+
 ### Good, Better, Best
 
 Notes:
